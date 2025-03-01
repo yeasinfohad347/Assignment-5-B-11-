@@ -28,8 +28,10 @@
                 <h1 class="text-3xl"><span class="text-gray-800">Dev</span><span class="font-bold">Board</span></h1>
             </div>
             <div class="flex gap-3 justify-center items-center text-3xl">
-                <img src="./assets/checkbox.png" alt="">
-                <p id="totalTask" class="font-bold mr-4 pb-1">23</p>
+                <div class="flex items-center justify-center rounded-3xl p-2 bg-[#F4F7FF] md:mr-2 gap-1 md:gap-2">
+                    <img src="./assets/checkbox.png" alt="">
+                    <p id="totalTask" class="font-bold ">23</p>
+                </div>
                 <img id="changBtn" src="./assets/theme-btn.png" alt="">
             </div>
         </nav>
@@ -37,8 +39,8 @@
     <!-- Code for main section -->
     <main class="flex-grow pb-10">
         <section class="max-w-screen-xl mx-auto mt-5   ">
-            <div class="flex gap-2  py-5">
-                <div class="w-9/12 grid gap-4 px-3 py-4 bg-[#FFFFFF] rounded-lg ">
+            <div class="md:flex gap-3  py-5">
+                <div class="md:w-9/12 grid gap-4 px-3 py-4 bg-[#FFFFFF] rounded-lg ">
                     <!-- Assignment section -->
                     <div class="grid grid-cols-4 gap-3 ">
                         <div class="flex justify-center items-center gap-3 p-3 bg-[#F4F7FF] rounded-lg">
@@ -50,7 +52,7 @@
                                 <h1 class="text-3xl font-bold">0<span id="total-assignment">6</span></h1>
                             </div>
                         </div>
-                        <div
+                        <div id="nextPage"
                             class="flex justify-center items-center gap-2 p-5 bg-gradient-to-r from-[#3752FD] to-[#9BA8F8] col-span-2  rounded-lg ">
                             <img class="" src="./assets/board.png" alt="">
                             <h1 class="font-medium text-2xl text-white">Discover Something New Today!</h1>
@@ -74,7 +76,8 @@
                                 <h2 class="card-title">Fix Mobile Button Issue </h2>
                                 <p class="bg-white p-2 text-gray-800 truncate rounded-lg ">Debug using Chrome Dev
                                     <br>Tools, check for overlapping elements, and ensure onClick works properly
-                                    and ensure onClick works properly</p>
+                                    and ensure onClick works properly
+                                </p>
                                 <div class="card-actions justify-between mt-3">
                                     <div>
                                         <p>Deadline</p>
@@ -88,10 +91,11 @@
                         <div class="card bg-[#F4F7FF]  shadow-sm">
                             <div class="card-body">
                                 <span class="bg-white p-2 w-32 rounded-lg ">CloudSync</span>
-                                <h2 class="card-title">Fix Mobile Button Issue </h2>
+                                <h2 class="card-title">Add Dark Mode</h2>
                                 <p class="bg-white p-2 text-gray-800 truncate rounded-lg ">Store the user's preference
                                     <br> in localStorage, update CSS variables dynamically, and apply a smooth
-                                    transition effect.</p>
+                                    transition effect.
+                                </p>
                                 <div class="card-actions justify-between mt-3">
                                     <div>
                                         <p>Deadline</p>
@@ -105,10 +109,11 @@
                         <div class="card bg-[#F4F7FF]  shadow-sm">
                             <div class="card-body">
                                 <span class="bg-white p-2 w-32 rounded-lg ">SwiftPay</span>
-                                <h2 class="card-title">Fix Mobile Button Issue </h2>
+                                <h2 class="card-title">Optimize Home page</h2>
                                 <p class="bg-white p-2 text-gray-800 truncate rounded-lg ">Debug using Chrome Dev
                                     <br>Tools, check for overlapping elements, and ensure onClick works properly
-                                    and ensure onClick works properly</p>
+                                    and ensure onClick works properly
+                                </p>
                                 <div class="card-actions justify-between mt-3">
                                     <div>
                                         <p>Deadline</p>
@@ -122,10 +127,11 @@
                         <div class="card bg-[#F4F7FF]  shadow-sm">
                             <div class="card-body">
                                 <span class="bg-white p-2 w-32 rounded-lg ">Meta</span>
-                                <h2 class="card-title">Fix Mobile Button Issue </h2>
+                                <h2 class="card-title">Add new emoji 🤲</h2>
                                 <p class="bg-white p-2 text-gray-800 truncate rounded-lg ">Debug using Chrome Dev
                                     <br>Tools, check for overlapping elements, and ensure onClick works properly
-                                    and ensure onClick works properly</p>
+                                    and ensure onClick works properly
+                                </p>
                                 <div class="card-actions justify-between mt-3">
                                     <div>
                                         <p>Deadline</p>
@@ -139,14 +145,15 @@
                         <div class="card bg-[#F4F7FF]  shadow-sm">
                             <div class="card-body">
                                 <span class="bg-white p-2 w-32 rounded-lg ">Google LLC</span>
-                                <h2 class="card-title">Fix Mobile Button Issue </h2>
+                                <h2 class="card-title">Integrate OpenAI API </h2>
                                 <p class="bg-white p-2 text-gray-800 truncate rounded-lg ">Debug using Chrome Dev
                                     <br>Tools, check for overlapping elements, and ensure onClick works properly
-                                    and ensure onClick works properly</p>
+                                    and ensure onClick works properly
+                                </p>
                                 <div class="card-actions justify-between mt-3">
                                     <div>
                                         <p>Deadline</p>
-                                        <h1>Jul 28 2025</h1>
+                                        <h1>21 March 2025</h1>
                                     </div>
                                     <button id="btn-5" class=" button btn btn-primary">Completed</button>
                                 </div>
@@ -156,10 +163,11 @@
                         <div class="card bg-[#F4F7FF]  shadow-sm">
                             <div class="card-body">
                                 <span class="bg-white p-2 w-32 rounded-lg ">Glassdoar</span>
-                                <h2 class="card-title">Fix Mobile Button Issue </h2>
+                                <h2 class="card-title">Improve Job searching </h2>
                                 <p class="bg-white p-2 text-gray-800 truncate rounded-lg ">Debug using Chrome Dev
                                     <br>Tools, check for overlapping elements, and ensure onClick works properly
-                                    and ensure onClick works properly</p>
+                                    and ensure onClick works properly
+                                </p>
                                 <div class="card-actions justify-between mt-3">
                                     <div>
                                         <p>Deadline</p>
@@ -176,9 +184,15 @@
 
                 <div class=" w-3/12 bg-[#FFFFFF] rounded-lg">
                     <div class="text-center">
-                        <h1 class="my-4"><i class="fa-solid fa-clock-rotate-left"></i> <span class="ml-2 font-medium">Activity Log</span></h1>
-                        <button class="btn btn-primary">Clear History</button>
+                        <h1 class="my-4"><i class="fa-solid fa-clock-rotate-left"></i> <span
+                                class="ml-2 font-medium">Activity Log</span></h1>
+                        <button id="clearBtn" class="btn btn-primary">Clear History</button>
                     </div>
+                    <hr class=" my-4">
+                    <div id="history">
+
+                    </div>
+
                 </div>
             </div>
 
@@ -188,6 +202,11 @@
 
     <script src="./js/changeBacground.js"></script>
     <script src="./js/taskComplete.js"></script>
+    <script src="./js/realTIme.js"></script>
+    <script src="./js/history.js"></script>
+    <script src="./js/clearHistory.js"></script>
+    <script src="./js/questionTask.js"></script>
+    <script src="./js/back.js"></script>
 </body>
 
 </html>
