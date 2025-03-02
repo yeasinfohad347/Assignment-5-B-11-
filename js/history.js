@@ -1,5 +1,5 @@
 function trackHistory(value) {
-    // get time from realTime.js file thorough function
+    // get time from realTime.js file through function
     let time = updateClock();
     // create new div which contain history
     const div = document.createElement("div");
