@@ -1,6 +1,6 @@
 const buttons = document.getElementsByClassName("button");
 const cardTitles=document.getElementsByClassName("card-title");
-
+let count=1;
 
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function() {
@@ -20,6 +20,10 @@ for (let i = 0; i < buttons.length; i++) {
             alert("Board Updated Successfully");
             trackHistory(cardTitles[i]);
             
+            if(count==buttons.length){
+                alert("congrates!!! You have completed all the current task");
+            }
+            count++;
         }
         
     });
