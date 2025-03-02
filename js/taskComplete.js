@@ -1,6 +1,7 @@
 const buttons = document.getElementsByClassName("button");
 const cardTitles=document.getElementsByClassName("card-title");
 
+
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function() {
         const totalAssignment = document.getElementById("total-assignment").innerText;
@@ -22,4 +23,8 @@ for (let i = 0; i < buttons.length; i++) {
         }
         
     });
+
+   
 }
+ // for updated date
+ 
